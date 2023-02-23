@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    position: relative; /*переопределение родителя для дочерних элементов с position: absolute*/
+    display: flex; /*определяем модель flex-box для блока header*/
+    flex-direction: column; /*выстраиваем в колонку (основная ось y)*/
+
+    justify-content: center; /*выравнивание по основоной оси*/
+    align-items: center; /*выравнивание по поперечной оси*/
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: #556983;
+    background-image: url("../img/header/header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header-title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 130%; /*1.3*56=72.8 - высота строки*/
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header-subtitle {
+    margin: 0;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.2em; /*расстояние между буквами*/
+    text-transform: uppercase; /*верхний регистр*/
+    color: #FFFFFF;
+}
+
+.header-arrow {
+    width: 48px;
+    height: 48px;
+
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
