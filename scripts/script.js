@@ -6,6 +6,3 @@ $(window).on('load', function (){
         bgColor: '#242f35'
     });
 })
-
-
-let header = document.querySelector()
