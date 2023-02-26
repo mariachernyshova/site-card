@@ -8,10 +8,16 @@ body {
     color: #000000;
 }
 
+img {
+    max-width: 100%;
+}
+
 .container {
-    max-width: 1110px;
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .none {
@@ -296,3 +302,19 @@ body {
     background-color: #275BEC;
     color: #fff;
 }
+
+
+/* .block {
+    width: 800px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+/* когда размер экрана меньше 800px, тогда будет работать этот код */
+/*@media (max-width: 800px) {
+    .block {
+        width: 400px;
+        background-color: peru;
+    }
+} 
+*/
